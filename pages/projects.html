@@ -22,25 +22,83 @@
             </header>
             <article>
                 <section>
-                    <h3>Home Networking Lab</h3>
-                    <img src="../images/networking-lab.png">
+                    <div id="p1_desc">
+                        <h3>Home Networking Lab</h3>
+                        <p>My most thrilling project yet is my networking lab. 
+                            This is where I do most of the lab work in studying for my Cisco certifications or networking courses. 
+                            I also use it as a dummy for testing my network attacks. 
+                            More hardware is soon to be deployed, and this section will be updated accordingly.  
+                        </p> 
+                    </div>
+                    
+                    <figure>
+                        <img src="../images/networking-lab.png">
+                        <figcaption>Lorem ipsum</figcaption>
+                    </figure>
+                    
+                    <div id="p1_hardware">
+                        <h3>Hardware</h3>
+                            <ul>
+                                <li>Cisco 1811 Integrated Services Router</li>
+                                <li>Cisco Meraki MS220 switch</li>
+                                <li>Cisco Catalyst 3560v2 multilayer switch</li>
+                                <li>Cisco Catalyst 3750 multilayer switch</li>
+                                <li>Cisco IP Phone 7945</li>
+                                <li>Mac Mini running VyOS Linux </li>
+                            </ul>
+                    </div>
+                    <div id="p1_applications">
+                        <h3>Applications and Services</h3>
+                        <div id="p1_applications_desc">
+                            <p>I try to replicate actual production environments by configuring multiple services at once. 
+                                Here are the contents of my best working configuration file.</p>
+                        </div>
+                        <ul>
+                            <li>Access control lists</li>
+                            <li>Authentication, authorization, and accounting (AAA) with RADIUS</li>
+                            <li>DHCP</li>
+                            <li>DHCP snooping</li>
+                            <li>DNS name resolution</li>
+                            <li>Dynamic ARP inspection</li>
+                            <li>Hot-standby routing</li>
+                            <li>In-band management through SSH</li>
+                            <li>Network address translation</li>
+                            <li>Syslog messaging to a centralized server</li>
+                          </ul>
+                    </div>
                 </section>
                 <seciton>
                     <h3>CSV-Data Management Application</h3>
-                    <div id="p2_image_container">
-                        <img src="../images/p2-data.png">
-                        <img src="../images/p2-interface.png">
+                    <div id="p2_desc">
+                        <p>A Python script that performs the functions shown in the interface image. 
+                            Modules from the standard library or third-party libraries do not contribute to the algorithm’s functionality. </p>
                     </div>
+                    <figure id="p2_interface"> 
+                        <img src="../images/p2-interface.png">
+                        <figcaption>The user interface for performing the listed operations.</figcaption>
+                    </figure>
+                    <figure id="p2_data">
+                        <img src="../images/p2-data.png">
+                        <figcaption>Sample CSV product data for reading and writing.</figcaption>
+                    </figure>
                 </seciton>
+
                 <section>
                     <h3>Dijkstra's Shortest Path First Algorithm</h3>
-                    <div id="p3_image_container">
-                        <img src="../images/p3-data.png">
-                        <img src="../images/p3-interface.png">
+                    <div id="p2_desc">
+                        <p>A Python script that applies Dijkstra’s Shortest Path First algorithm to a CSV file representation of a graph. 
+                            Each node in the graph represents a destination, and each edge represents a path.
+                            The algorithm finds the least costly path from a start point to each charging station in the graph (denoted by the charger symbol).
+                        This was a collaborative project with GitHub user <a href="https://github.com/ellieInfinity">ellieinfinity</a> as the other contributer.</p>
                     </div>
-                </section>
-                <section>
-                    <!--Other notable projects-->
+                    <figure id="p3_interface">
+                        <img src="../images/p3-interface.png">
+                        <figcaption>The user interface for entering a starting location (node) and displaying the shortest path.</figcaption>
+                    </figure>
+                    <figure id="p3_data">
+                        <img src="../images/p3-data.png">
+                        <figcaption>The graph represented and read in CSV form.</figcaption>
+                    </figure>
                 </section>
             </article>
             <footer>
