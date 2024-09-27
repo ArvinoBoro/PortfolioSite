@@ -1,6 +1,66 @@
-/* Colour scheme: #8FA9BF, #1E2226, #B4CBD9, #8DA656, #62733F */
 @charset "UTF-8";
 @media only screen and (min-width:960px)
 {
+    #wrapper {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Header */ 
+    #wrapper header h1 {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white; 
+        padding-left: 5.5%;
+        padding-top: 55px;
+    }
+
+    #banner {
+        width: 100%; 
+        height: 140px;
+        background-image: url(../images/banner-image.jpg);  /* External source: https://www.w3schools.com/cssref/pr_background-image.php */
+        background-size: contain;   /* External source: https://www.w3schools.com/cssref/css3_pr_background-size.php */ 
+    }
+
+    #navigation_menu {
+        background-color: #73168C;
+        display: flex;
+        padding-left: 5%; 
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .navigation_button {
+        float: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #73168C;
+        font-family: "Lucida Console", monospace;
+    }
+
+    .navigation_button a {
+        color: white; 
+        font-size: large;
+        text-decoration: none;
+    }
+
+    .navigation_button:hover {
+        background-color: #C04BF2;
+    }
+    /* Header End */ 
+
+    /* Home */
+    /* Home End */
+
+    /* Projects */
+    /* Projects End */
+
+    /* Contact */ 
+    /* Contact End */
+
+    /* About */ 
+    /* About End */ 
+    
 
 } 
