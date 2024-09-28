@@ -11,7 +11,7 @@
     }
 
     /* Header */ 
-    #wrapper header h1 {
+    header h1 {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white; 
         padding-left: 5.5%;
@@ -57,7 +57,7 @@
     /* Home */
     
     #comic_strip_container img {
-        width: 63%;
+        width: 63.15%;
         height: auto;
         border: 14px solid #281259;  
         margin-left: auto;
@@ -98,6 +98,7 @@
         padding-bottom: 40px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 1%;
     }
 
     #introduction p {
@@ -119,6 +120,23 @@
 
     /* About */ 
     /* About End */ 
+
+    /* Footer */
+
+    footer {
+        background-color: #281259; 
+        color: white; 
+        width: 100%; 
+        text-align: center; 
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    address a {
+        color: white;
+    }
+
+    /* Footer End */ 
     
 
 } 
