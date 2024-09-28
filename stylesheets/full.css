@@ -1,6 +1,10 @@
 @charset "UTF-8";
 @media only screen and (min-width:960px)
 {
+    body {
+        font-size: 100%;
+    }
+
     #wrapper {
         margin-left: auto;
         margin-right: auto;
@@ -51,9 +55,63 @@
     /* Header End */ 
 
     /* Home */
+    
+    #comic_strip_container img {
+        width: 63%;
+        height: auto;
+        border: 14px solid #281259;  
+        margin-left: auto;
+        margin-right: auto; 
+        display: block; 
+        margin-bottom: 1%;
+    }
+    
+    #fine_quote {
+        background-color: #070926;
+        color: white;  
+        width: 55%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1%;
+    }
+
+    #fine_quote h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #fine_quote p {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.5rem;
+    }
+
+
+    #introduction {
+        background-color: #F2F2F2; 
+        width: 55%; 
+        padding-left: 5%;
+        padding-right: 5%; 
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #introduction p {
+        font-size: large; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #introduction h3 {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    }
     /* Home End */
 
     /* Projects */
+
     /* Projects End */
 
     /* Contact */ 
