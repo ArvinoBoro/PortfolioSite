@@ -112,21 +112,7 @@
     }
     /* Home End */
 
-    /* Projects */
-
-    .project_heading {
-        font-family: 'Courier New', Courier, monospace;
-        background-color: #281259;
-        color: white; 
-        width: 100%;
-        height: auto;
-        text-align: center; 
-        margin-top: 1%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        
-    }
-
+    /* Project 1 Start*/
     #p1_heading h3 {
         font-family:'Courier New', Courier, monospace;
         font-size: 1.5rem;
@@ -220,7 +206,9 @@
         padding-right: 10%;
         padding-bottom: 5%;
     }
+    /* Project 1 End */
 
+    /* Project 2 Start */
     #p2_desc {
         background-color: #F2F2F2;
         width: 60%; 
@@ -237,22 +225,9 @@
         padding-left: 5%;
         padding-right: 5%;
     }
+    /* Project 2 End */ 
 
-    .image_container {
-        background-color: #F2F2F2;
-        width: 60%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-    }
-
-    .image_container img {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
+    /* Project 3 Start */
     #p3_desc {
         background-color: #F2F2F2;
         width: 60%; 
@@ -269,9 +244,37 @@
         padding-left: 5%;
         padding-right: 5%;
     }
+    /* Project 3 End */ 
 
+    /* Multiple or All Projects Start*/
+    .image_container {
+        background-color: #F2F2F2;
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
 
-    /* Projects End */
+    .image_container img {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .project_heading {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #281259;
+        color: white; 
+        width: 100%;
+        height: auto;
+        text-align: center; 
+        margin-top: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        
+    }
+    /* Multiple or All Projects End */
 
     /* Contact */ 
     /* Contact End */
@@ -279,8 +282,7 @@
     /* About */ 
     /* About End */ 
 
-    /* Footer */
-
+    /* Footer Start */
     footer {
         background-color: #281259; 
         color: white; 
@@ -293,7 +295,6 @@
     address a {
         color: white;
     }
-
     /* Footer End */ 
     
 
