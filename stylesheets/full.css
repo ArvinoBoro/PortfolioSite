@@ -63,6 +63,7 @@
         margin-left: auto;
         margin-right: auto; 
         display: block; 
+        margin-top: 1%; 
         margin-bottom: 1%;
     }
     
@@ -112,6 +113,111 @@
     /* Home End */
 
     /* Projects */
+
+    #p1_heading {
+        background-color: #281259;
+        color: white; 
+        width: 100%;
+        height: auto;
+        text-align: center; 
+        margin-top: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        
+    }
+
+    #p1_heading h3 {
+        font-family:'Courier New', Courier, monospace;
+        font-size: 1.5rem;
+    }
+
+    #p1_desc_image {
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto; 
+        display: flex;
+    }
+
+    #p1_desc {
+        float: left;
+        width: 50%; 
+        height: auto;
+        background-color: #F2F2F2;
+
+    }
+
+    #p1_desc p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%; 
+    }
+
+    #networking_lab_image {
+        float: left; 
+        width: 50%; 
+        height: auto;
+        background-image: url(../images/networking-lab.png); /* External source: https://www.w3schools.com/cssref/pr_background-image.php */
+        background-size: cover; /* External source: https://www.w3schools.com/cssref/css3_pr_background-size.php */ 
+    }
+
+    #p1_hardware_applications {
+        clear: left; 
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto; 
+        display: flex;
+    }
+
+    #p1_hardware {
+        background-color: #F2F2F2;
+        float: left;
+        width: 50%;
+        height: auto; 
+    }
+
+    #p1_hardware h3 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #p1_hardware ul {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 15%;
+        padding-right: 10%;
+    }
+
+    #p1_applications {
+        background-color: #F2F2F2;
+        float: left;
+        width: 50%;
+        height: auto; 
+    }
+
+    #p1_applications h3 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #p1_applications p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #p1_applications ul {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-left: 15%;
+        padding-right: 10%;
+    }
+
+    
 
     /* Projects End */
 
