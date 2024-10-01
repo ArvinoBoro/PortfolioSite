@@ -10,7 +10,7 @@
         margin-right: auto;
     }
 
-    /* Header */ 
+    /* Header Start */ 
     header h1 {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white; 
@@ -32,7 +32,10 @@
     }
 
     #navigation_menu {
-        background-color: #73168C;
+        background: -moz-linear-gradient(left, #73168C 50%, #C04BF2 100%);
+        background: -webkit-linear-gradient(top, #73168C 50%, #C04BF2 100%);
+        background: -o-linear-gradient(top, #73168C 50%, #C04BF2 100%);
+        background: linear-gradient(to right, #73168C 50%,#C04BF2  100%);
         display: flex;
         padding-left: 5%; 
         padding-top: 1%;
@@ -60,8 +63,7 @@
     }
     /* Header End */ 
 
-    /* Home */
-    
+    /* Home Start */
     #comic_strip_container img {
         width: 63.15%;
         height: auto;
@@ -397,7 +399,10 @@
 
     /* Footer Start */
     footer {
-        background-color: #281259; 
+        background: -moz-linear-gradient(left, #070926 50%, #281259 100%);
+        background: -webkit-linear-gradient(top, #070926 50%, #281259 100%);
+        background: -o-linear-gradient(top, #070926 50%, #281259 100%);
+        background: linear-gradient(to right, #070926 50%,#281259  100%);
         clear: left;
         color: white; 
         width: 100%; 
