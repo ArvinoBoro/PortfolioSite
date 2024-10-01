@@ -345,6 +345,7 @@
     }
 
     #about_me_writing p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin-left: 10%;
         margin-top: 5%;
     }
@@ -368,6 +369,14 @@
         height: auto;
     }
 
+    #university_courses h3 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #university_courses ul {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
     #university_courses h3, ul {
         margin-top: 5%;
         margin-bottom: 5%;
@@ -378,7 +387,6 @@
         clear: left; 
         margin-left: 5%;
     }
-    
     /* About End */ 
 
     /* Footer Start */
@@ -396,6 +404,5 @@
         color: white;
     }
     /* Footer End */ 
-    
 
 } 
