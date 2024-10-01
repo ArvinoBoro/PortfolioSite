@@ -119,6 +119,7 @@
     }
 
     #p1_desc_image {
+        margin-top: 1%;
         width: 60%;
         height: auto;
         margin-left: auto;
@@ -152,6 +153,7 @@
     }
 
     #p1_hardware_applications {
+        padding-top: 1%;
         clear: left; 
         width: 60%;
         margin-left: auto;
@@ -263,6 +265,7 @@
     }
     
     .project_heading {
+        padding-top: 4%;
         font-family: 'Courier New', Courier, monospace;
         background-color: #281259;
         color: white; 
@@ -276,7 +279,23 @@
     }
     /* Multiple or All Projects End */
 
-    /* Contact */ 
+    /* Contact Start */ 
+    #contact_instructions {
+        background-color: #F2F2F2;
+        width: 60%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contact_instructions p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
     /* Contact End */
 
     /* About */ 
