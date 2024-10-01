@@ -328,15 +328,63 @@
     }
     /* Contact End */
     
-    /* About Start */ 
+    /* About Start */
+    #about_me_content {
+        margin-top: 1%;
+        background-color: #F2F2F2;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    #about_me_writing {
+        background-color: #F2F2F2;
+        float: left;
+        width: 50%;
+        height: auto;
+    }
 
+    #about_me_writing p {
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    #profile_picture {
+        float: left;
+        width: 25%;
+        height: auto;
+    }
+
+    #profile_picture img {
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    #university_courses {
+        background-color: #F2F2F2;
+        clear: left;
+        float: left;
+        width: 50%;
+        height: auto;
+    }
+
+    #university_courses h3, ul {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+    }
+
+    #about_me_video {
+        clear: left; 
+        margin-left: 5%;
+    }
     
     /* About End */ 
 
     /* Footer Start */
     footer {
         background-color: #281259; 
+        clear: left;
         color: white; 
         width: 100%; 
         text-align: center; 
