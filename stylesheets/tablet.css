@@ -21,7 +21,10 @@
     }
 
     #navigation_menu {
-        background-color: #73168C;
+        background: -moz-linear-gradient(left, #73168C 0%, #C04BF2 100%);
+        background: -webkit-linear-gradient(top, #73168C 0%, #C04BF2 100%);
+        background: -o-linear-gradient(top, #73168C 0%, #C04BF2 100%);
+        background: linear-gradient(to right, #73168C 0%,#C04BF2  100%);
         width: 100%;
         height: 125px;
         display: flex;
@@ -103,6 +106,11 @@
         margin-left: 2%;
         margin-right: 2%;
     }
+    /* Home End */
+
+    /* Footer Start */
+    
+    /* Footer End */ 
 
 
 } 
