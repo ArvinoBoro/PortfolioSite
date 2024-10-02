@@ -18,4 +18,32 @@
     #banner h3 {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
+
+    #navigation_menu {
+        background-color: #73168C;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .navigation_button {
+        background-color: rgb(76, 8, 140);
+        float: left;
+        border-radius: 10px;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-family: "Lucida Console", monospace;
+    }
+
+    .navigation_button a {
+        color: white;
+        text-decoration: none;
+    }
+
+
 } 
