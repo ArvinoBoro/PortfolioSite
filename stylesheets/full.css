@@ -359,6 +359,7 @@
     }
 
     #profile_picture {
+        position: relative;
         float: left;
         width: 25%;
         height: auto;
