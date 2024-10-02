@@ -55,7 +55,6 @@
         margin-left: auto;
         margin-right: auto; 
         margin-top: 1%; 
-        margin-bottom: 1%;  
         display: block; 
     }
 
@@ -67,6 +66,7 @@
         border: 5px solid #070926; 
         padding-top: 60px;
         padding-bottom: 60px;
+        margin-top: 1%;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -79,6 +79,29 @@
     #fine_quote p {
         font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 1.5rem;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #introduction {
+        background-color: #F2F2F2;
+        width: 80%; 
+        height: auto;
+        border: 5px solid #F2F2F2;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #introduction h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 2%;
+    }
+
+    #introduction p {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
 
