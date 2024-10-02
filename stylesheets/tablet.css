@@ -23,7 +23,7 @@
     #navigation_menu {
         background-color: #73168C;
         width: 100%;
-        height: 150px;
+        height: 125px;
         display: flex;
         justify-content: center;
         flex-direction: row;
@@ -35,7 +35,7 @@
         border-radius: 10px;
         text-align: center;
         padding: 20px;
-        margin-top: 40px;
+        margin-top: 35px;
         margin-left: 10px;
         margin-right: 10px;
         font-family: "Lucida Console", monospace;
@@ -51,12 +51,34 @@
     #comic_strip_container img {
         width: 80%;
         height: auto;
-        border: 14px solid #281259;  
+        border: 5px solid #281259;  
         margin-left: auto;
         margin-right: auto; 
-        display: block; 
         margin-top: 1%; 
-        margin-bottom: 1%;
+        margin-bottom: 1%;  
+        display: block; 
+    }
+
+    #fine_quote {
+        background-color: #070926;
+        color: white;
+        width: 80%;
+        height: auto;
+        border: 5px solid #070926; 
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #fine_quote h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #fine_quote p {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.5rem;
     }
 
 
