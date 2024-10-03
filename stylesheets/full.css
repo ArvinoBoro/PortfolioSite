@@ -258,6 +258,14 @@
         padding-left: 5%;
     }
 
+    .form_prompt input {
+        width: 50%;
+    }
+
+    .form_prompt textarea {
+        width: 70%;
+    }
+
     .form_button {
         background-color: #73168C;
         color: white;
