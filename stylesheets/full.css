@@ -180,6 +180,18 @@
         padding-right: 10%;
         padding-bottom: 5%;
     }
+
+    .project_heading {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #281259;
+        color: white; 
+        width: 100%;
+        height: auto;
+        text-align: center; 
+        padding-top: 4%;
+        margin-top: 1%;
+        padding-bottom: 1%; 
+    }
  
     .project_desc {
         background-color: #F2F2F2;
@@ -213,19 +225,6 @@
         margin-right: auto;
     }
     
-    .project_heading {
-        padding-top: 4%;
-        font-family: 'Courier New', Courier, monospace;
-        background-color: #281259;
-        color: white; 
-        width: 100%;
-        height: auto;
-        text-align: center; 
-        margin-top: 1%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        
-    }
     /* Projects End */
 
     /* Contact Start */ 
