@@ -289,6 +289,7 @@
         margin-top: 1%;
         background-color: #F2F2F2;
         width: 60%;
+        padding-bottom: 2%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -341,8 +342,18 @@
     }
 
     #about_me_video {
-        clear: left; 
-        margin-left: 5%;
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+
+    #about_me_video video {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     /* About End */ 
 
