@@ -62,7 +62,10 @@
     }
 
     #fine_quote {
-        background-color: #070926;
+        background: -moz-linear-gradient(45deg, #070926 0%, #281259 100%);
+        background: -webkit-linear-gradient(45deg, #070926 0%, #281259 100%);
+        background: -o-linear-gradient(45deg, #070926 0%, #281259 100%);
+        background: linear-gradient(45deg, #070926 0%, #281259 100%);
         color: white;
         width: 80%;
         height: auto;
