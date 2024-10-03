@@ -272,6 +272,78 @@
     }
     /* Contact End */
 
+    /* About Start */
+    #about_me_content {
+        margin-top: 1%;
+        background-color: #F2F2F2;
+        width: 80%;
+        padding-bottom: 2%;
+        margin-bottom: 2%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #about_me_writing {
+        background-color: #F2F2F2;
+        width: 80%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #about_me_writing p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #profile_picture {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+
+    #profile_picture img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #university_courses {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+
+    #university_courses h3 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 60px;
+    }
+
+    #university_courses ul {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #about_me_video {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+
+    #about_me_video video {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /* About End */ 
+
     /* Footer Start */
     footer {
         background: -moz-linear-gradient(left, #070926 0%, #281259 100%);
