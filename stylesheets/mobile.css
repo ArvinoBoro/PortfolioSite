@@ -34,6 +34,7 @@
 
     .navigation_button {
         background-color: rgb(76, 8, 140);
+        font-family: "Lucida Console", monospace;
         border-radius: 10px;
         text-align: center;
         padding-top: 20px;
@@ -43,7 +44,6 @@
         margin-top: 10px;
         margin-left: 5px;
         margin-right: 5px;
-        font-family: "Lucida Console", monospace;
     }
 
     .navigation_button a {
@@ -112,4 +112,46 @@
         margin-right: 2%;
     }
     /* Home End */ 
+
+    /* Footer Start */
+    footer {
+        background: -moz-linear-gradient(left, #070926 0%, #281259 100%);
+        background: -webkit-linear-gradient(top, #070926 0%, #281259 100%);
+        background: -o-linear-gradient(top, #070926 0%, #281259 100%);
+        background: linear-gradient(to right, #070926 0%,#281259  100%);
+        width: 100%; 
+        padding-top: 50px;
+        padding-bottom: 20px;
+        
+        text-align: center;
+    }
+
+    .contact_button {
+        background-color: #73168C;
+        font-family: "Lucida Console", monospace;
+        font-style: normal;
+        text-align: center;
+        width: 100px;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+    
+    .contact_button a {
+        color: white;
+        text-decoration: none; /* External source: https://www.w3schools.com/cssref/pr_font_font-style.php */ 
+    }
+    
+    footer p {
+        color: white; 
+        padding-top: 20px;
+    }
+
+    /* Footer End */ 
 } 

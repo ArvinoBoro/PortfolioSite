@@ -42,7 +42,7 @@
         padding-bottom: 1%;
     }
 
-    .navigation_button {
+    #navigation_menu .navigation_button {
         float: left;
         padding-left: 10px;
         padding-right: 10px;
@@ -371,9 +371,6 @@
         padding-bottom: 30px;
     }
 
-    address a {
-        color: white;
-    }
     /* Footer End */ 
 
 } 
