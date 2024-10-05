@@ -6,7 +6,7 @@ Thank you for visiting my GitHub repo!
 This is my second-year university project for Web and Script Programming at Ontario Tech University (formerly University of Ontario Institute of Technology). The project is a **portfolio website** designed to showcase my professional skills to job recruiters and anyone interested in my work.
 
 ## Project Status
-This project is hosted live at . 
+This project is hosted live at https://arvinoboro.github.io/PortfolioSite/. 
 
 Once the site is complete, future commits will:
 - Address any issues.
