@@ -347,6 +347,8 @@
     }
     /* About End */ 
 
+    /* 
+
     /* Footer Start */
     footer {
         background: -moz-linear-gradient(left, #070926 0%, #281259 100%);
@@ -378,6 +380,5 @@
         padding-top: 20px;
         height: 60px;
     }
-
     /* Footer End */ 
 } 

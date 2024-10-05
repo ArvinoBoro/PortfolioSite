@@ -58,7 +58,7 @@
         text-decoration: none;
     }
 
-    .navigation_button:hover {
+    #navigation_menu .navigation_button:hover {
         background-color: #C04BF2;
     }
     /* Header End */ 
