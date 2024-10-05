@@ -5,17 +5,12 @@
         font-size: 100%;
     }
 
-    #wrapper {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     /* Header Start */ 
     header h1 {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white; 
-        padding-left: 5.5%;
         padding-top: 55px;
+        padding-left: 5.5%;
     }
 
     header h3 {
@@ -25,10 +20,10 @@
     }
 
     #banner {
-        width: 100%; 
-        height: 140px;
         background-image: url(../images/banner-image.jpg);  /* External source: https://www.w3schools.com/cssref/pr_background-image.php */
         background-size: contain;   /* External source: https://www.w3schools.com/cssref/css3_pr_background-size.php */ 
+        width: 100%; 
+        height: 140px;
     }
 
     #navigation_menu {
@@ -36,25 +31,24 @@
         background: -webkit-linear-gradient(top, #73168C 50%, #C04BF2 100%);
         background: -o-linear-gradient(top, #73168C 50%, #C04BF2 100%);
         background: linear-gradient(to right, #73168C 50%,#C04BF2  100%);
-        display: flex;
         padding-left: 5%; 
         padding-top: 1%;
         padding-bottom: 1%;
+        display: flex; /* The container is flexible. It can change shape based on the divs it contains. */
     }
 
     #navigation_menu .navigation_button {
+        background-color: #73168C;
+        font-family: 'Lucida Console', 'Monaco', 'Courier New', monospace;
         float: left;
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
-        background-color: #73168C;
-        font-family: "Lucida Console", monospace;
     }
 
     .navigation_button a {
         color: white; 
-        font-size: large;
         text-decoration: none;
     }
 
@@ -65,14 +59,13 @@
 
     /* Home Start */
     #comic_strip_container img {
-        width: 63.15%;
-        height: auto;
         border: 14px solid #281259;  
-        margin-left: auto;
-        margin-right: auto; 
-        display: block; 
+        width: 63.15%;
         margin-top: 1%; 
         margin-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto; 
+        display: block;  /* The element starts a new line and takes up the full width. */
     }
     
     #fine_quote {
@@ -96,25 +89,24 @@
     }
 
     #fine_quote p {
-        font-family:Georgia, 'Times New Roman', Times, serif;
-        font-size: 1.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.5rem; /* 1.5 times the font size of the root elements default font size. */
     }
 
 
     #introduction {
         background-color: #F2F2F2; 
         width: 55%; 
-        padding-left: 5%;
-        padding-right: 5%; 
         padding-top: 40px;
         padding-bottom: 40px;
+        padding-left: 5%;
+        padding-right: 5%; 
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 1%;
     }
 
     #introduction p {
-        font-size: large; 
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
@@ -130,14 +122,12 @@
         width: 60%;
         margin-left: auto;
         margin-right: auto; 
-        display: flex;
+        display: flex; 
     }
 
     #p1_hardware {
         background-color: #F2F2F2;
-        float: left;
         width: 50%;
-        height: auto; 
     }
 
     #p1_hardware h3 {
@@ -156,9 +146,7 @@
 
     #p1_applications {
         background-color: #F2F2F2;
-        float: left;
         width: 50%;
-        height: auto; 
     }
 
     #p1_applications h3 {
@@ -186,7 +174,6 @@
         background-color: #281259;
         color: white; 
         width: 100%;
-        height: auto;
         text-align: center; 
         padding-top: 4%;
         margin-top: 1%;
@@ -196,14 +183,12 @@
     .project_desc {
         background-color: #F2F2F2;
         width: 60%; 
-        height: auto;
         margin-left: auto;
         margin-right: auto;
     }
 
     .project_desc p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: large;
         padding-top: 2.5%;
         padding-bottom: 2.5%;
         padding-left: 5%;
@@ -213,7 +198,6 @@
     .image_container {
         background-color: #F2F2F2;
         width: 60%;
-        height: auto;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -237,7 +221,6 @@
 
     #contact_instructions p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: large;
         padding-top: 2.5%;
         padding-bottom: 2.5%;
         padding-left: 5%;
@@ -247,7 +230,6 @@
     form {
         background-color: #F2F2F2;
         width: 60%;
-        height: auto;
         margin-left: auto;
         margin-right: auto;
     }
@@ -286,10 +268,10 @@
     
     /* About Start */
     #about_me_content {
-        margin-top: 1%;
         background-color: #F2F2F2;
         width: 60%;
         padding-bottom: 2%;
+        margin-top: 1%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -298,20 +280,17 @@
         background-color: #F2F2F2;
         float: left;
         width: 50%;
-        height: auto;
     }
 
     #about_me_writing p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        margin-left: 10%;
         margin-top: 5%;
+        margin-left: 10%;
     }
 
     #profile_picture {
-        position: relative;
         float: left;
         width: 25%;
-        height: auto;
     }
 
     #profile_picture img {
@@ -321,10 +300,7 @@
 
     #university_courses {
         background-color: #F2F2F2;
-        clear: left;
-        float: left;
         width: 50%;
-        height: auto;
     }
 
     #university_courses h3 {
@@ -343,7 +319,6 @@
 
     #about_me_video {
         width: 80%;
-        height: auto;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -351,7 +326,6 @@
 
     #about_me_video video {
         width: 100%;
-        height: auto;
         margin-left: auto;
         margin-right: auto;
     }
@@ -363,8 +337,8 @@
         background: -webkit-linear-gradient(top, #070926 50%, #281259 100%);
         background: -o-linear-gradient(top, #070926 50%, #281259 100%);
         background: linear-gradient(to right, #070926 50%,#281259  100%);
-        clear: left;
         color: white; 
+        clear: left;
         width: 100%; 
         text-align: center; 
         padding-top: 30px;

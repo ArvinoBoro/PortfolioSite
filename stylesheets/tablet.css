@@ -3,11 +3,11 @@
 {
     /* Header Start */
     #banner {
+        background-image: url(../images/banner-image.jpg);  /* External source: https://www.w3schools.com/cssref/pr_background-image.php */
+        background-size: contain;   /* External source: https://www.w3schools.com/cssref/css3_pr_background-size.php */ 
         color: white;
         width: 100%;
         height: 140px;
-        background-image: url(../images/banner-image.jpg);  /* External source: https://www.w3schools.com/cssref/pr_background-image.php */
-        background-size: contain;   /* External source: https://www.w3schools.com/cssref/css3_pr_background-size.php */ 
         text-align: center;
     }
     
@@ -28,8 +28,8 @@
         width: 100%;
         height: 125px;
         display: flex;
-        justify-content: center;
-        flex-direction: row;
+        justify-content: center; /* */
+        flex-direction: row; /* */
     }
 
     #navigation_menu .navigation_button {
@@ -37,6 +37,7 @@
     }
 
     .navigation_button {
+        font-family: 'Lucida Console', 'Monaco', 'Courier New', monospace;
         float: left;
         border-radius: 10px;
         text-align: center;
@@ -44,7 +45,6 @@
         margin-top: 35px;
         margin-left: 5px;
         margin-right: 5px;
-        font-family: "Lucida Console", monospace;
     }
 
     .navigation_button a {
@@ -56,7 +56,6 @@
     /* Home Start */
     #comic_strip_container img {
         width: 80%;
-        height: auto;
         border: 5px solid #281259;  
         margin-left: auto;
         margin-right: auto; 
@@ -70,9 +69,8 @@
         background: -o-linear-gradient(45deg, #070926 0%, #281259 100%);
         background: linear-gradient(45deg, #070926 0%, #281259 100%);
         color: white;
-        width: 80%;
-        height: auto;
         border: 5px solid #070926; 
+        width: 80%;
         padding-top: 60px;
         padding-bottom: 60px;
         margin-top: 1%;
@@ -87,7 +85,7 @@
 
     #fine_quote p {
         font-family:Georgia, 'Times New Roman', Times, serif;
-        font-size: 1.5rem;
+        font-size: 20px;
         margin-left: 2%;
         margin-right: 2%;
     }
@@ -95,7 +93,6 @@
     #introduction {
         background-color: #F2F2F2;
         width: 80%; 
-        height: auto;
         border: 5px solid #F2F2F2;
         margin-top: 1%;
         margin-left: auto;
@@ -116,9 +113,8 @@
 
     /* Projects Start*/
     #p1_hardware_applications {
-        padding-top: 1%;
-        clear: left; 
         width: 80%;
+        padding-top: 1%;
         margin-left: auto;
         margin-right: auto; 
         display: flex;
@@ -126,7 +122,6 @@
 
     #p1_hardware {
         background-color: #F2F2F2;
-        float: left;
         width: 50%;
         height: auto; 
     }
@@ -147,9 +142,7 @@
 
     #p1_applications {
         background-color: #F2F2F2;
-        float: left;
         width: 50%;
-        height: auto; 
     }
 
     #p1_applications h3 {
@@ -173,28 +166,25 @@
     }
 
     .project_heading {
-        padding-top: 4%;
-        font-family: 'Courier New', Courier, monospace;
         background-color: #281259;
+        font-family: 'Courier New', Courier, monospace;
         color: white; 
-        width: 100%;
-        height: auto;
         text-align: center; 
-        margin-top: 1%;
+        width: 100%;
+        padding-top: 4%;
         padding-bottom: 4%;
+        margin-top: 1%;
     }
  
     .project_desc {
         background-color: #F2F2F2;
         width: 80%; 
-        height: auto;
         margin-left: auto;
         margin-right: auto;
     }
 
     .project_desc p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: large;
         padding-top: 2.5%;
         padding-bottom: 2.5%;
         padding-left: 5%;
@@ -204,7 +194,6 @@
     .image_container {
         background-color: #F2F2F2;
         width: 80%;
-        height: auto;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -227,7 +216,6 @@
 
     #contact_instructions p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: large;
         padding-top: 2.5%;
         padding-bottom: 2.5%;
         padding-left: 5%;
@@ -237,7 +225,6 @@
     form {
         background-color: #F2F2F2;
         width: 80%;
-        height: auto;
         margin-left: auto;
         margin-right: auto;
     }
@@ -303,7 +290,6 @@
 
     #profile_picture {
         width: 80%;
-        height: auto;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -316,7 +302,6 @@
     
     #university_courses {
         width: 80%;
-        height: auto;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -333,7 +318,6 @@
 
     #about_me_video {
         width: 80%;
-        height: auto;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -341,7 +325,6 @@
 
     #about_me_video video {
         width: 100%;
-        height: auto;
         margin-left: auto;
         margin-right: auto;
     }
@@ -361,7 +344,7 @@
 
     #social_menu {
         display: flex;
-        justify-content: center;
+        justify-content: center; 
     }
 
     #social_menu .navigation_button {
@@ -373,7 +356,6 @@
     }
     
     footer p {
-        clear: left;
         color: white; 
         padding-top: 20px;
         height: 60px;
