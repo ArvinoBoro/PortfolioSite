@@ -6,8 +6,8 @@
         color: white;
         width: 100%;
         height: 140px;
-        background-image: url(../images/banner-image.jpg);  /* External source: https://www.w3schools.com/cssref/pr_background-image.php */
-        background-size: contain;   /* External source: https://www.w3schools.com/cssref/css3_pr_background-size.php */ 
+        background-image: url(../images/banner-image.jpg);  /* (1) Sets a background image for the div.  */
+        background-size: contain;   /* (2) The background image is resized to be entirely visible. */ 
         text-align: center;
     }
     
@@ -59,7 +59,7 @@
         margin-left: auto;
         margin-right: auto; 
         margin-top: 1%; 
-        display: block; 
+        display: block; /* (3) The element starts on a new line and takes the entire width. */
     }
 
     #fine_quote {
@@ -351,7 +351,7 @@
     footer a {
         color: white;
         text-decoration: none;
-        font-style: normal; /* External source: https://www.w3schools.com/css/css_font_style.asp */ 
+        font-style: normal; /* (4) */ 
     }
 
     footer p {

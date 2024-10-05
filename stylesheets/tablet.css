@@ -3,8 +3,8 @@
 {
     /* Header Start */
     #banner {
-        background-image: url(../images/banner-image.jpg);  /* External source: https://www.w3schools.com/cssref/pr_background-image.php */
-        background-size: contain;   /* External source: https://www.w3schools.com/cssref/css3_pr_background-size.php */ 
+        background-image: url(../images/banner-image.jpg);  /* (1) Sets a background image for the div.  */
+        background-size: contain;   /* (2) The background image is resized to be entirely visible. */ 
         color: white;
         width: 100%;
         height: 140px;
@@ -28,8 +28,8 @@
         width: 100%;
         height: 125px;
         display: flex;
-        justify-content: center; /* */
-        flex-direction: row; /* */
+        justify-content: center; 
+        flex-direction: row; 
     }
 
     #navigation_menu .navigation_button {
@@ -60,7 +60,7 @@
         margin-left: auto;
         margin-right: auto; 
         margin-top: 1%; 
-        display: block; 
+        display: block; /* (3) The element starts on a new line and takes the entire width. */
     }
 
     #fine_quote {
@@ -352,7 +352,7 @@
     }
 
     footer a {
-        font-style: normal; /* External source: https://www.w3schools.com/css/css_font_style.asp */ 
+        font-style: normal; /* (4) Removes italics from the text. */ 
     }
     
     footer p {

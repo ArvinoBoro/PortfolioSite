@@ -20,8 +20,8 @@
     }
 
     #banner {
-        background-image: url(../images/banner-image.jpg);  /* External source: https://www.w3schools.com/cssref/pr_background-image.php */
-        background-size: contain;   /* External source: https://www.w3schools.com/cssref/css3_pr_background-size.php */ 
+        background-image: url(../images/banner-image.jpg);  /* (1) Sets a background image for the div.  */
+        background-size: contain;   /* (2) The background image is resized to be entirely visible. */ 
         width: 100%; 
         height: 140px;
     }
@@ -34,7 +34,7 @@
         padding-left: 5%; 
         padding-top: 1%;
         padding-bottom: 1%;
-        display: flex; /* The container is flexible. It can change shape based on the divs it contains. */
+        display: flex; 
     }
 
     #navigation_menu .navigation_button {
@@ -65,7 +65,7 @@
         margin-bottom: 1%;
         margin-left: auto;
         margin-right: auto; 
-        display: block;  /* The element starts a new line and takes up the full width. */
+        display: block;  /* (3) The element starts on a new line and takes the entire width. */
     }
     
     #fine_quote {
@@ -89,8 +89,8 @@
     }
 
     #fine_quote p {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 1.5rem; /* 1.5 times the font size of the root elements default font size. */
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        font-size: 22px;
     }
 
 
