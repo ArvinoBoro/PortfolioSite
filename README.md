@@ -1,4 +1,5 @@
 # PortfolioSite
+v2.0.0-alpha
 
 Thank you for visiting my GitHub repo!
 
@@ -22,8 +23,6 @@ Feel free to leave any comments, suggestions, or inquiries either on GitHub or t
 - (2) https://www.w3schools.com/cssref/css3_pr_background-size.php
 - (3) https://www.w3schools.com/cssref/pr_class_display.php
 - (4) https://www.w3schools.com/css/css_font_style.asp 
-
-Their use is documented in the CSS stylesheets. 
 
 ---
 **- Arvin**
