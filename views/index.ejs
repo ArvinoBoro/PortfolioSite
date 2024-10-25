@@ -5,36 +5,15 @@
     <head>
         <meta charset='utf-8'> 
         <meta name="viewport" content="width=device-width">
-        <link href="stylesheets/full.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
-        <link href="stylesheets/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
-        <link href="stylesheets/mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
-        <title>Home</title>
+        <link href="/stylesheets/full.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+        <link href="/stylesheets/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+        <link href="/stylesheets/mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+        <title><%= title %></title>
     </head>
 
     <body>
         <div id="wrapper">
-            <header>
-                <div id="banner">
-                    <h1>ARVIN ZIBA</h1>
-                    <h3>HOME</h3>
-                </div>
-                <div id="navigation_menu">
-                    <nav>
-                        <div class="navigation_button">
-                            <a href="index.html">Home</a>
-                        </div>
-                        <div class="navigation_button">
-                            <a href="projects.html">Projects</a>
-                        </div>
-                        <div class="navigation_button">
-                            <a href="contact.html">Contact</a>
-                        </div>
-                        <div class="navigation_button">
-                            <a href="about.html">About</a>
-                        </div>
-                    </nav>
-                </div>
-            </header>
+            <%- include('partials/header') %>
             <article>
                 <div id="comic_strip_container">
                     <img src="images/comic-strip.png" alt="If you're seeing this, the image failed to load.">
@@ -57,22 +36,7 @@
                     </div>
                 </section>
             </article>
-            <footer>
-                <address>
-                    <div id="social_menu">
-                        <div class="navigation_button">
-                            <a href="https://github.com/ArvinoBoro">GitHub</a>
-                        </div>
-                        <div class="navigation_button">
-                            <a href="https://www.linkedin.com/in/arvin-ziba-51493424b/">LinkedIn</a>
-                        </div>
-                        <div class="navigation_button">
-                            <a href="mailto:arvin.ziba@ontariotechu.net">Email Me</a>
-                        </div>
-                    </div>
-                </address>
-                <p>&copy; Arvin Ziba 2024 </p>
-            </footer>
+            <%- include('partials/footer') %>
         </div>
     </body>
 </html>
