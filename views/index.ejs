@@ -1,42 +1,26 @@
-<!DOCTYPE html>
-
-<html lang="en">
-
-    <head>
-        <meta charset='utf-8'> 
-        <meta name="viewport" content="width=device-width">
-        <link href="/stylesheets/full.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
-        <link href="/stylesheets/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
-        <link href="/stylesheets/mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
-        <title><%= title %></title>
-    </head>
-
-    <body>
-        <div id="wrapper">
-            <%- include('partials/header') %>
-            <article>
-                <div id="comic_strip_container">
-                    <img src="images/comic-strip.png" alt="If you're seeing this, the image failed to load.">
-                </div>
-                <section>
-                    <div id="fine_quote">
-                        <p>"I don't care that they stole my idea...I care that they don't have any of their own."</p>
-                        <p>- Nikola Tesla </p> 
-                    </div>
-                </section>
-                <section>
-                    <div id="introduction">
-                        <h3>Greetings all!</h3>
-                        <p>I am an IT enthusiast who is seeking to expand my professional experience. 
-                            What you’re looking at is my portfolio website, which showcases my projects, skills, education, and objectives. 
-                            You can also find me on GitHub and LinkedIn. 
-                            I know this page is somewhat sparse but I couldn't think of anything else to add.  
-                            Feel free to make any suggestions through the contact page.</p>
-                        <p>Thanks!</p> 
-                    </div>
-                </section>
-            </article>
-            <%- include('partials/footer') %>
+<%- include('partials/header') %>
+<%- include('partials/navbar') %>
+<article>
+    <div id="comic_strip_container">
+        <img src="images/comic-strip.png" alt="If you're seeing this, the image failed to load.">
+    </div>
+    <section>
+        <div id="fine_quote">
+            <p>"I don't care that they stole my idea...I care that they don't have any of their own."</p>
+            <p>- Nikola Tesla </p> 
         </div>
-    </body>
-</html>
+    </section>
+    <section>
+        <div id="introduction">
+            <h3>Greetings all!</h3>
+            <p>I am an IT enthusiast who is seeking to expand my professional experience. 
+                What you’re looking at is my portfolio website, which showcases my projects, skills, education, and objectives. 
+                You can also find me on GitHub and LinkedIn. 
+                I know this page is somewhat sparse but I couldn't think of anything else to add.  
+                Feel free to make any suggestions through the contact page.</p>
+            <p>Thanks!</p> 
+        </div>
+    </section>
+</article>
+<%- include('partials/footer') %>
+

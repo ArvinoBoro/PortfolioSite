@@ -9,6 +9,14 @@ router.get('/', (req, res, next) => {
   });
 });
 
+/* Route for the Home page */ 
+router.get('/home', (req, res, next) => {
+  res.render('index', {
+    title: 'Home',
+    heading: 'HOME' 
+  });
+});
+
 /* Route for Projects page */
 router.get('/projects', (req, res, next) => {
   res.render('projects', {
@@ -31,6 +39,6 @@ router.get('/about', (req, res, next) => {
     title: 'About',
     heading: 'ABOUT'
   });
-});
+}); // The views are extracted from the router (controller). 
 
 module.exports = router;

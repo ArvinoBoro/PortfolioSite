@@ -1,72 +1,56 @@
-<!DOCTYPE html>
-
-<html lang="en">
-
-    <head>
-        <meta charset='utf-8'> 
-        <meta name="viewport" content="width=device-width">
-        <link href="/stylesheets/full.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
-        <link href="/stylesheets/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
-        <link href="/stylesheets/mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
-        <title><%= title %></title>
-    </head>
-
-    <body>
-        <div id="wrapper">
-            <%- include('partials/header') %>
-            <article>
-                <div id="contact_instructions">
-                    <p>Comments, inquiries, or suggestions? Use the following form to submit them to me. 
-                        On submit, your default email client should open with a prepared email. Thank you!</p>
-                </div>
-                <form action="mailto:arvin.ziba@ontariotechu.net" method="post" enctype="text/plain" name="form">
-                    <div class="form_prompt">
-                        <label for="first_name">First Name</label>
-                        <br>
-                        <input id="first_name" type="text" name="first_name" size="32" placeholder="First Name">
-                    </div>
-                    
-                    <div class="form_prompt">
-                        <label for="surname">Surname</label>
-                        <br>
-                        <input id="surname" type="text" name="surname" size="32" placeholder="Surname">
-                    </div>
-
-                    <div class="form_prompt">
-                        <label for="email">Email</label>
-                        <br>
-                        <input id="email" type="email" name="email" size="48" placeholder="Email" required>
-                    </div>
-
-                    <div class="form_prompt">
-                        <label for="comments">Comments</label>
-                        <br>
-                        <textarea id="comments" name="comments" cols="60" rows="5" maxlength="300" placeholder="Questions, Inquiries, Suggestions etc." required></textarea>
-                    </div>
-
-                    <div class="form_prompt">
-                        <label for="how_find_me">How did you find this website?</label> 
-                        <select id="how_find_me" name="how_find_me" required>
-                            <option value="">Please select an option</option>
-                            <option value="1">Word of mouth</option>
-                            <option value="2">LinkedIn</option>
-                            <option value="3">Indeed</option>
-                            <option value="4">GitHub</option>
-                            <option value="5">Other</option>
-                        </select>
-                    </div>
-                    <br>
-                    <div class="form_prompt">
-                        <label for="specify">If you selected "Other", please specify how.</label>
-                        <br>
-                        <input id="specify" type="text" name="specify" size="32">
-                    </div>
-                    <br>
-                    <input class="form_button" type="submit" value="Submit">
-                    <input class="form_button" type="reset" value="Reset">
-                </form>
-            </article>
-            <%- include('partials/footer') %>
+<%- include('partials/header') %>
+<%- include('partials/navbar') %>
+<article>
+    <div id="contact_instructions">
+        <p>Comments, inquiries, or suggestions? Use the following form to submit them to me. 
+            On submit, your default email client should open with a prepared email. Thank you!</p>
+    </div>
+    <form action="mailto:arvin.ziba@ontariotechu.net" method="post" enctype="text/plain" name="form">
+        <div class="form_prompt">
+            <label for="first_name">First Name</label>
+            <br>
+            <input id="first_name" type="text" name="first_name" size="32" placeholder="First Name">
         </div>
-    </body>
-</html>
+        
+        <div class="form_prompt">
+            <label for="surname">Surname</label>
+            <br>
+            <input id="surname" type="text" name="surname" size="32" placeholder="Surname">
+        </div>
+
+        <div class="form_prompt">
+            <label for="email">Email</label>
+            <br>
+            <input id="email" type="email" name="email" size="48" placeholder="Email" required>
+        </div>
+
+        <div class="form_prompt">
+            <label for="comments">Comments</label>
+            <br>
+            <textarea id="comments" name="comments" cols="60" rows="5" maxlength="300" placeholder="Questions, Inquiries, Suggestions etc." required></textarea>
+        </div>
+
+        <div class="form_prompt">
+            <label for="how_find_me">How did you find this website?</label> 
+            <select id="how_find_me" name="how_find_me" required>
+                <option value="">Please select an option</option>
+                <option value="1">Word of mouth</option>
+                <option value="2">LinkedIn</option>
+                <option value="3">Indeed</option>
+                <option value="4">GitHub</option>
+                <option value="5">Other</option>
+            </select>
+        </div>
+        <br>
+        <div class="form_prompt">
+            <label for="specify">If you selected "Other", please specify how.</label>
+            <br>
+            <input id="specify" type="text" name="specify" size="32">
+        </div>
+        <br>
+        <input class="form_button" type="submit" value="Submit">
+        <input class="form_button" type="reset" value="Reset">
+    </form>
+</article>
+<%- include('partials/footer') %>
+ 

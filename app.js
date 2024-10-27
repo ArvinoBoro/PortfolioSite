@@ -9,16 +9,18 @@ const router = require('./routes/index');
 const app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'views')); // If the path is not provided assume the file is in the 'views' directory.
 app.set('view engine', 'ejs');
 
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public'))); // If the path is not provided assume the static file is in the 'public' directory.
+app.use(express.static(path.join(__dirname, 'node_modules'))); // If the path is not provided assume the static file is in the 'node_modules' directory.
 
 app.use('/', router);
+app.use('/home', router); 
 app.use('/projects', router);
 app.use('/contact', router);
 app.use('/about', router);
