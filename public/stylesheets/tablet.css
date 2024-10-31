@@ -330,6 +330,29 @@
     }
     /* About End */ 
 
+    /* Error Start */
+    #error_container {
+        background-color: #F2F2F2;
+        width: 80%; 
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #error_container h1, h2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #error_container h1 {
+        padding-top: 2.5%;
+    }
+
+    #error_container p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-bottom: 2.5%;
+    }
+    /* Error End */
+
     /* Footer Start */
     footer {
         background: -moz-linear-gradient(left, #070926 0%, #281259 100%);
