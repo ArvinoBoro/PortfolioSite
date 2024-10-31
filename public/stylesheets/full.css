@@ -368,6 +368,14 @@
         padding-bottom: 30px;
     }
 
+    #social_menu {
+        display: flex;
+        justify-content: center; 
+    }
+
+    #social_menu .navigation_button {
+        padding: 0.5%;
+    }
     /* Footer End */ 
 
 } 

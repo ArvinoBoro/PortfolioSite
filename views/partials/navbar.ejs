@@ -1,16 +1,36 @@
 <div id="navigation_menu">
     <nav>
         <div class="navigation_button">
-            <a href="/">Home</a>
+            <% if(title=="Home") { %> 
+                <a class="nav-link active">
+            <% } else { %>
+                <a class="nav-link" href="/">
+            <% } %>
+               <i class="fa-solid fa-house"></i> Home </a> 
         </div>
         <div class="navigation_button">
-            <a href="projects">Projects</a>
+            <% if(title=="Projects") { %> 
+                <a class="nav-link active">
+            <% } else { %>
+                <a class="nav-link" href="/projects">
+            <% } %>
+               <i class="fa-solid fa-wrench"></i> Projects </a> 
         </div>
         <div class="navigation_button">
-            <a href="contact">Contact</a>
+            <% if(title=="Contact") { %> 
+                <a class="nav-link active">
+            <% } else { %>
+                <a class="nav-link" href="/contact">
+            <% } %>
+                <i class="fa-solid fa-comment"></i> Contact </a> 
         </div>
         <div class="navigation_button">
-            <a href="about">About</a>
+            <% if(title=="About") { %> 
+                <a class="nav-link active">
+            <% } else { %>
+                <a class="nav-link" href="/about">
+            <% } %>
+               <i class="fa-solid fa-user"></i> About </a> 
         </div>
     </nav>
 </div>

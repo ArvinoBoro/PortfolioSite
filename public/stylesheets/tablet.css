@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media only screen and (min-width:481px) and (max-width:960px)
+@media only screen and (min-width:570px) and (max-width:960px)
 {
     /* Header Start */
     #banner {
@@ -381,7 +381,7 @@
     footer p {
         color: white; 
         padding-top: 20px;
-        height: 60px;
+        height: 80px;
     }
     /* Footer End */ 
 } 
