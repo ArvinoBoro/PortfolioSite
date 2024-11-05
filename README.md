@@ -7,7 +7,7 @@ Thank you for visiting my GitHub repo!
 This is my second-year university project for Web and Script Programming at Ontario Tech University (formerly University of Ontario Institute of Technology). The project is a **portfolio website** designed to showcase my professional skills to job recruiters and anyone interested in my work.
 
 ## Project Status
-v2.0.0 is currently in development and for that reason is temporarily unhosted. 
+Hosted live at https://arvin-ziba.onrender.com
 
 Once the site is complete, future commits will:
 - Address any issues.
@@ -15,7 +15,7 @@ Once the site is complete, future commits will:
 - Enhance functionality.
 
 ## How to Contact Me
-Feel free to leave any comments, suggestions, or inquiries either on GitHub or through email at [arvin.ziba@ontariotechu.net](mailto:arvin.ziba@ontariotechu.net). 
+Feel free to leave any comments, suggestions, or inquiries on GitHub or email at [arvin.ziba@ontariotechu.net](mailto:arvin.ziba@ontariotechu.net). 
 
 ## External Code Sources
 
@@ -26,12 +26,12 @@ Feel free to leave any comments, suggestions, or inquiries either on GitHub or t
 - (5) https://www.w3schools.com/bootstrap5/bootstrap_navbar.php
 
 ## Instructions for Running Locally
-1. Make sure all the dependencies defined in package.json are installed, including Node JS. 
-2. Open a terminal in administrator or sudo mode.
-3. Navigate to the bin directory in the project folder. 
-4. Run the command "node server".
-5. Open a browser and enter "localhost:3000" in the URI bar (check your system for open ports and try those, if the site is unreachable).
+1. Open a terminal with elevated privileges.
+2. Navigate to the project root directory.
+3. Install Node JS if not already.
+4. Install all the dependencies defined in package.json by running "npm install" in the root directory. 
+5. Run the command "npm run start".
+6. Open a browser and enter "localhost:3000" in the URI bar (check your system for open ports and try those, if the site is unreachable).
 
 ---
 **- Arvin**
-
