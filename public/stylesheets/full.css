@@ -37,8 +37,8 @@
 
     /* Home Start */
     #comic_strip_container img {
-        border: 14px solid #281259;  
-        width: 63.15%;
+        border: 5px solid #281259;  
+        width: 55%;
         margin-top: 1%; 
         margin-bottom: 1%;
         margin-left: auto;
@@ -339,20 +339,10 @@
         background: -o-linear-gradient(top, #070926 50%, #281259 100%);
         background: linear-gradient(to right, #070926 50%,#281259  100%);
         color: white; 
-        clear: left;
-        width: 100%; 
-        text-align: center; 
-        padding-top: 30px;
-        padding-bottom: 30px;
     }
 
-    #social_menu {
-        display: flex;
-        justify-content: center; 
-    }
-
-    #social_menu .navigation_button {
-        padding: 0.5%;
+    footer p {
+        color: white;
     }
     /* Footer End */ 
 } 
