@@ -18,3 +18,5 @@ temp/
 
 # Operating system 
 .DS_Store
+
+package-lock.json
