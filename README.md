@@ -1,5 +1,5 @@
 # PortfolioSite
-v2.0.2
+v2.0.3
 
 Thank you for visiting my GitHub repo!
 

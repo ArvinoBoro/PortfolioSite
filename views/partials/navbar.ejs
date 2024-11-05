@@ -1,37 +1,43 @@
-<div id="navigation_menu">
-    <nav>
-        <div class="navigation_button">
-            <% if(title=="Home") { %> 
-                <a class="nav-link active">
-            <% } else { %>
-                <a class="nav-link" href="/">
-            <% } %>
-               <i class="fa-solid fa-house"></i> Home </a> 
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <% if(title=="Home") { %> 
+                    <a class="nav-link active">
+                <% } else { %>
+                    <a class="nav-link" href="/">
+                <% } %>
+                    <i class="fa-solid fa-house"></i> Home </a> 
+                </li>
+                <li class="nav-item">
+                <% if(title=="Projects") { %> 
+                    <a class="nav-link active">
+                <% } else { %>
+                    <a class="nav-link" href="/projects">
+                <% } %>
+                    <i class="fa-solid fa-wrench"></i> Projects </a> 
+                </li>
+                <li class="nav-item">
+                <% if(title=="Contact") { %> 
+                    <a class="nav-link active">
+                <% } else { %>
+                    <a class="nav-link" href="/contact">
+                <% } %>
+                    <i class="fa-solid fa-comment"></i> Contact </a> 
+                </li>
+                <li class="nav-item">
+                <% if(title=="About") { %> 
+                    <a class="nav-link active">
+                <% } else { %>
+                    <a class="nav-link" href="/about">
+                <% } %>
+                    <i class="fa-solid fa-user"></i> About </a> 
+                </li>
+            </ul>
         </div>
-        <div class="navigation_button">
-            <% if(title=="Projects") { %> 
-                <a class="nav-link active">
-            <% } else { %>
-                <a class="nav-link" href="/projects">
-            <% } %>
-               <i class="fa-solid fa-wrench"></i> Projects </a> 
-        </div>
-        <div class="navigation_button">
-            <% if(title=="Contact") { %> 
-                <a class="nav-link active">
-            <% } else { %>
-                <a class="nav-link" href="/contact">
-            <% } %>
-                <i class="fa-solid fa-comment"></i> Contact </a> 
-        </div>
-        <div class="navigation_button">
-            <% if(title=="About") { %> 
-                <a class="nav-link active">
-            <% } else { %>
-                <a class="nav-link" href="/about">
-            <% } %>
-               <i class="fa-solid fa-user"></i> About </a> 
-        </div>
-    </nav>
-</div>
-
+    </div>
+</nav>

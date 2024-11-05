@@ -8,54 +8,32 @@
     /* Header Start */ 
     header h1 {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: white; 
-        padding-top: 55px;
-        padding-left: 5.5%;
+        color: white;
     }
 
     header h3 {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: white; 
-        padding-left: 5.5%;
+        color: white;
     }
 
-    #banner {
+    header {
         background-image: url(../images/banner-image.jpg);  /* (1) Sets a background image for the div.  */
         background-size: contain;   /* (2) The background image is resized to be entirely visible. */ 
-        width: 100%; 
-        height: 140px;
-    }
-
-    #navigation_menu {
-        background: -moz-linear-gradient(left, #73168C 50%, #C04BF2 100%);
-        background: -webkit-linear-gradient(top, #73168C 50%, #C04BF2 100%);
-        background: -o-linear-gradient(top, #73168C 50%, #C04BF2 100%);
-        background: linear-gradient(to right, #73168C 50%,#C04BF2  100%);
-        padding-left: 5%; 
-        padding-top: 1%;
-        padding-bottom: 1%;
-        display: flex; 
-    }
-
-    #navigation_menu .navigation_button {
-        background-color: #73168C;
-        font-family: 'Lucida Console', 'Monaco', 'Courier New', monospace;
-        float: left;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    .navigation_button a {
-        color: white; 
-        text-decoration: none;
-    }
-
-    #navigation_menu .navigation_button:hover {
-        background-color: #C04BF2;
     }
     /* Header End */ 
+
+    /* Navbar Start */
+    nav {
+        background: -moz-linear-gradient(left, #73168C 0%, #C04BF2 100%);
+        background: -webkit-linear-gradient(top, #73168C 0%, #C04BF2 100%);
+        background: -o-linear-gradient(top, #73168C 0%, #C04BF2 100%);
+        background: linear-gradient(to right, #73168C 0%,#C04BF2  100%);
+    }
+
+    .nav-item:hover {
+        background-color: #C04BF2;
+    }
+    /* Navbar End */
 
     /* Home Start */
     #comic_strip_container img {
@@ -377,5 +355,4 @@
         padding: 0.5%;
     }
     /* Footer End */ 
-
 } 

@@ -1,57 +1,31 @@
 @charset "UTF-8";
 @media only screen and (min-width:570px) and (max-width:960px)
 {
-    /* Header Start */
-    #banner {
+    /* Header Start */ 
+    header h1 {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+    }
+
+    header h3 {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+    }
+
+    header {
         background-image: url(../images/banner-image.jpg);  /* (1) Sets a background image for the div.  */
         background-size: contain;   /* (2) The background image is resized to be entirely visible. */ 
-        color: white;
-        width: 100%;
-        height: 140px;
-        text-align: center;
     }
-    
-    #banner h1 {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding-top: 5%;
-    }
+    /* Header End */ 
 
-    #banner h3 {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-
-    #navigation_menu {
+    /* Navbar Start */
+    nav {
         background: -moz-linear-gradient(left, #73168C 0%, #C04BF2 100%);
         background: -webkit-linear-gradient(top, #73168C 0%, #C04BF2 100%);
         background: -o-linear-gradient(top, #73168C 0%, #C04BF2 100%);
         background: linear-gradient(to right, #73168C 0%,#C04BF2  100%);
-        width: 100%;
-        height: 125px;
-        display: flex;
-        justify-content: center; 
-        flex-direction: row; 
     }
-
-    #navigation_menu .navigation_button {
-        background-color: #40067D;
-    }
-
-    .navigation_button {
-        font-family: 'Lucida Console', 'Monaco', 'Courier New', monospace;
-        float: left;
-        border-radius: 10px;
-        text-align: center;
-        padding: 20px;
-        margin-top: 35px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    .navigation_button a {
-        color: white;
-        text-decoration: none;
-    }
-    /* Header End */ 
+    /* Navbar End */
 
     /* Home Start */
     #comic_strip_container img {
