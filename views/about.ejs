@@ -1,43 +1,50 @@
 <%- include('partials/header') %>
 <%- include('partials/navbar') %>
 <article id="about_me_content">
-    <div id="about_me_writing">
-        <p>Hey hey!
-            My name is Arvin Ziba. 
-            I am a second-year student at Ontario Tech University, majoring in networking and IT security. 
-            From my studies there, I gained a solid grasp in most of the content covered in CCNA plus about 85 hours of practical experience, through our state-of-the-art networking lab. 
-            I also have a plenty of experience in programming in Python, C++, and JavaScript (more so in Python) from my courses in Python, data structures and algorithms, web and script programming, and statistics. 
-            Below is a list of some of my completed courses at Ontario Tech. 
-            I encourage you check out my “Projects” page for more insight into my professional experience. 
-            My hobbies include Dungeons and Dragons, board games in general, video games, and hacking. 
-            Hacking is a big one. 
-            I have a passion for experimenting with networks and seek ways to breach their security (legally, of course). 
-            This is something I regularly do on my home lab. 
-            Anyways, that’s a little about myself. Thanks for reading. 
-            </p> 
+
+    <div class="container">
+        <div class="row">
+            <div class="col-7 px-5 pt-5">
+                <p>
+                    Hey there!
+                    My name is Arvin Ziba. 
+                    I'm a third-year student at Ontario Tech University of Oshawa, majoring in networking and IT security. 
+                    Through my studies, I developed a solid grasp IT networking with approximately 85 hours of practical experience. 
+                    I'm also well-familiar with computer systems, programming and web development.   
+                    Below is a list of some of my completed courses at Ontario Tech. 
+                    For more insight into my technical experience consider viewing my <a href="/projects">Projects</a> page.
+                    <br><br>
+                    What absorbs my attention most is troubleshooting and resolving IT issues, be it individual devices or entire networks.
+                    If such a problem ocurrs, I will get to the bottom of it. 
+                    Nothing brings a wider smile to my face than a happy customer who's desktop, printer or router is working once again.
+                    I'm like Dr. Greg House when he investigates a medical anomaly, minus the snarky attitude.   
+                </p>
+            </div>
+            <div class="col-5 px-5 pt-5">
+                <img src="/images/selfie.jpg" class="img-fluid">
+            </div>
+        </div>
+
     </div>
-    <figure id="profile_picture">
-        <img src="images/portrait.png" alt="If you're seeing this, the image failed to load.">
-    </figure>       
-    <div id="university_courses">
-        <h3>Completed University Courses</h3>
-        <ul>
-            <li>Intro to Networking I</li>
-            <li>Intro to Networking II</li>
-            <li>Advanced Networking I</li>
-            <li>Intro to Programming for IT</li>
-            <li>Object Oriented Programming for IT</li>
-            <li>Intro to Computer Security</li>
-            <li>Management of the Enterprise</li>
-            <li>Computer Architecture</li>
-            <li>Statistics for IT</li>
-        </ul>
+         
+    <div class="container">
+        <div class="row">
+            <div class="col-6 px-5 pt-5">
+                <h3>Completed University Courses</h3>
+            <ul>
+                <li>Advanced Networking I</li>
+                <li>Advanced Networking II</li>
+                <li>Algorithms and Data Structures</li>
+                <li>Object Oriented Programming for IT</li>
+                <li>Management of the Enterprise</li>
+                <li>Operating Systems</li>
+                <li>Intro to Computer Security</li>
+                <li>Technical Communications</li>
+                <li>Web and Script Programming</li>
+            </ul>
+            </div>
+        </div>
     </div>
-    <div id="about_me_video">
-        <video controls poster="images/selfie.jpg" preload="auto" muted loop>
-            <source src="videos/about-video.mp4" type="video/mp4">
-            <source src="videos/about-video.ogv" type="video/ogg">
-        </video>
-    </div>
+
 </article>
 <%- include('partials/footer') %>
